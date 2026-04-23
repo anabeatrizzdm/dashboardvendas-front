@@ -468,3 +468,27 @@ select {
 .password-strength.forte {
   color: #10b981;
 }
+.scroll-card {
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+/* scrollbar bonita */
+.scroll-card::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scroll-card::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.6);
+  border-radius: 6px;
+}
+
+.scroll-card::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scroll-card {
+  max-height: 40vh;
+  overflow-y: auto;
+}

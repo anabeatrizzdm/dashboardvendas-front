@@ -68,7 +68,7 @@ export default function Produtos() {
           {produtos.length === 0 ? (
             <p className="empty-state">Nenhum produto cadastrado.</p>
           ) : (
-            <ul className="list">
+            <ul className="list scroll-card">
               {produtos.map((p) => (
                 <li className="list-item" key={p.id}>
                   <div className="item-info">

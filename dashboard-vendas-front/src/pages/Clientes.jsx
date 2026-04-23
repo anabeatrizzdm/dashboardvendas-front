@@ -64,7 +64,7 @@ export default function Clientes() {
           {clientes.length === 0 ? (
             <p className="empty-state">Nenhum cliente cadastrado.</p>
           ) : (
-            <ul className="list">
+            <ul className="list scroll-card">
               {clientes.map((c) => (
                 <li className="list-item" key={c.id}>
                   <div className="item-info">
