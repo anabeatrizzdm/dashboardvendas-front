@@ -96,7 +96,7 @@ dashboardvendas-front/
 ├── package.json
 └── vite.config.ts
 ```
-##Integração com API
+## Integração com API
 
 O frontend consome a API desenvolvida em .NET através de requisições HTTP utilizando Axios.
 
@@ -110,7 +110,7 @@ POST /produtos
 GET /vendas
 POST /vendas
 
-##Objetivo Acadêmico
+## Objetivo Acadêmico
 
 Este projeto foi desenvolvido para fins acadêmicos com foco em:
 
