@@ -1,4 +1,4 @@
-# Dashboard de Vendas Front-End
+# Dashboard de Vendas
 
 Sistema web para gerenciamento de vendas desenvolvido com React, TypeScript e Vite, integrado a uma API em .NET e banco de dados PostgreSQL.
 
